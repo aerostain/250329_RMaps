@@ -30,4 +30,10 @@ dir.create("Files")
 # Procesamiento
 options("width" = 10000)
 
+library(tmap)
+library(sf)
+library(sp)
+library(GISTools)
 
+install.packages("maptools")
+library(maptools)
